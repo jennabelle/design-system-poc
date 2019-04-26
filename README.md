@@ -2,8 +2,10 @@
 proof-of-concept for universal design system
 
 To setup:
-
-`npm install`
+```
+git clone
+npm install
+```
 
 To run Storybook:
 
@@ -11,6 +13,8 @@ To run Storybook:
 
 To create new package within monorepo, go inside the packages folder:
 
-```npx create-react-app [name of package]
+```
+npx create-react-app [name of package]
 cd [name of package]
-npm start```
+npm start
+```
