@@ -10,22 +10,28 @@ git clone
 npm install
 ```
 
-## How To Run Storybook
+## Run Storybook
 
 We use Storybook as a playground to build individual UI components, before publishing it to the `packages` folder.
 
 In root of project, run Storybook:
 
-`npm run storybook`
+```
+npm run storybook
+```
 
-Then go here, to view all stories:
+Go here, to view all stories:
 
-`http://localhost:6006/`
+```
+http://localhost:6006/
+```
+
+Please Note:
 
 * Your `.storybook/ directory` contains your Storybook configuration.
 * Your `stories/ directory` is where your global Storybook stories live.
 
-## How To Publish a New Universal UI Component
+## Publish a New Universal UI Component
 
 Create a new package within the monorepo, go inside the `packages` folder:
 
