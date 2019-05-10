@@ -28,8 +28,8 @@ http://localhost:6006/
 
 Please Note:
 
-* Your `.storybook/ directory` contains your Storybook configuration.
-* Your `stories/ directory` is where your global Storybook stories live.
+* Your `.storybook/` directory contains your Storybook configuration.
+* Your `stories/` directory is where your global Storybook stories live.
 
 ## Publish a New Universal UI Component
 
@@ -43,7 +43,7 @@ cd [name of package]
 npm run start
 ```
 
-Navigate to see your new universal UI component:
+Navigate to see your component:
 
 ```
 http://localhost:3000/

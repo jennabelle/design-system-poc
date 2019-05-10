@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import BaseButton from './BaseButton';
+import { default as BaseButton } from './BaseButton';
 import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(<BaseButton />, document.getElementById('root'));
