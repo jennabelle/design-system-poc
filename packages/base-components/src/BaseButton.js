@@ -1,8 +1,19 @@
 import styled from 'styled-components';
-import {color} from 'styled-system';
+import theme from 'styled-theming';
+
+const backgroundColor = theme('mode', {
+  light: '#fafafa',
+  dark: '#222'
+});
+
+const textColor = theme('mode', {
+  light: '#000',
+  dark: '#fff'
+});
 
 const BaseButton = styled.button`
-  ${color}
+  background-color: ${backgroundColor};
+  color: ${textColor};
   border: 2px solid ${props => props.theme.main}
 `
 

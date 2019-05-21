@@ -8,10 +8,6 @@ import { Button, Welcome } from '@storybook/react/demo';
 import BaseButton from '../src/BaseButton';
 import { ThemeProvider } from 'styled-components';
 
-const theme = {
-  main: 'mediumseagreen'
-};
-
 storiesOf('Welcome', module).add('to Storybook', () => <Welcome showApp={linkTo('Button')} />);
 
 storiesOf('Button', module)
@@ -24,5 +20,5 @@ storiesOf('Button', module)
     </Button>
   ))
   .add('jenna', () => (
-    <ThemeProvider theme={theme}><BaseButton color='#000000'>Tomato</BaseButton></ThemeProvider>
+    <ThemeProvider theme={{ mode: 'dark' }}><BaseButton color='#000000'>Tomato</BaseButton></ThemeProvider>
   ));

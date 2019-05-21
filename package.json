@@ -24,7 +24,8 @@
   },
   "dependencies": {
     "styled-components": "^4.2.0",
-    "styled-system": "^4.2.2"
+    "styled-system": "^4.2.2",
+    "styled-theming": "^2.2.0"
   },
   "scripts": {
     "storybook": "start-storybook -p 6006",
